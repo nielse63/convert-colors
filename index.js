@@ -1,2 +1,2 @@
 
-module.exports = require('./src/node-starter-kit');
+module.exports = require('./src/convert-colors');

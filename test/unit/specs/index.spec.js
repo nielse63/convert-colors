@@ -9,6 +9,8 @@ export default function IndexSpec() {
   });
 
   describe('happy path', () => {
+    const input = 'howdy';
+    expect(pkg(input)).to.equal(input);
   });
 
   describe('sad path', () => {

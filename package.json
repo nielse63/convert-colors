@@ -1,21 +1,21 @@
 {
-  "name": "node-starter-kit",
+  "name": "convert-colors",
   "version": "1.0.0",
-  "description": "A simple node starter kit",
+  "description": "A color conversion library",
   "main": "index.js",
-  "repository": "https://github.com/nielse63/node-starter-kit",
+  "repository": "https://github.com/nielse63/convert-colors",
   "author": {
     "name": "Erik Nielsen",
     "email": "erik@312development.com",
     "url": "https://312development.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/nielse63/node-starter-kit",
+  "homepage": "https://github.com/nielse63/convert-colors",
   "keywords": [],
-  "bugs": "https://github.com/nielse63/node-starter-kit/issues",
+  "bugs": "https://github.com/nielse63/convert-colors/issues",
   "scripts": {
     "lint": "eslint src",
-    "minify": "uglifyjs dist/node-starter-kit.js -m -c -o dist/node-starter-kit.min.js",
+    "minify": "uglifyjs dist/convert-colors.js -m -c -o dist/convert-colors.min.js",
     "prebuild": "yarn run lint && rm -rf dist",
     "build": "babel src -d dist --source-maps inline",
     "postbuild": "npm run minify",
