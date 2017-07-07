@@ -14,15 +14,14 @@
   "keywords": [],
   "bugs": "https://github.com/nielse63/convert-colors/issues",
   "scripts": {
-    "lint": "eslint src",
-    "minify": "uglifyjs dist/convert-colors.js -m -c -o dist/convert-colors.min.js",
-    "prebuild": "yarn run lint && rm -rf dist",
-    "build": "babel src -d dist --source-maps inline",
-    "postbuild": "npm run minify",
-    "pretest": "rm -rf coverage *.log",
+    "lint": "eslint src ./*.js",
+    "cleanup": "rm -rf lib coverage .nyc_output *.log",
+    "prebuild": "npm run lint && npm run cleanup && mkdir lib",
+    "build": "babel src -d lib",
+    "pretest": "npm run cleanup",
     "test": "nyc mocha --opts test/unit/mocha.opts test/unit/index.js",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "prepublishOnly": "npm run build && npm test"
+    "prepublishOnly": "npm test"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
@@ -31,12 +30,13 @@
     "babel-register": "^6.24.1",
     "chai": "^4.0.2",
     "chai-asserttype": "^1.0.5",
+    "chai-deep-match": "^1.0.2",
     "coveralls": "^2.13.1",
     "eslint": "^4.1.1",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.7.0",
     "mocha": "^3.4.2",
     "nyc": "^11.0.3",
-    "uglify-js": "^3.0.23"
+    "randomcolor": "^0.5.3"
   }
 }

@@ -1,2 +1,2 @@
 
-module.exports = require('./src/convert-colors');
+module.exports = require('./lib/convert-colors');

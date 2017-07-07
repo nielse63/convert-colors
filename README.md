@@ -7,7 +7,9 @@
 [![NPM version](https://badge.fury.io/js/convert-colors.svg)](http://badge.fury.io/js/convert-colors)
 [![npm](https://img.shields.io/npm/dt/convert-colors.svg?style=flat-square)](https://www.npmjs.com/package/convert-colors)
 
-A color conversion library
+DO NOT INSTALL - IN ACTIVE DEVELOPMENT.
+
+<!--A color conversion library
 
 ## Installation
 
@@ -83,5 +85,5 @@ yarn run lint # lints js
 yarn test     # runs test suite
 ```
 
-If all tests pass, [create a pull request](https://github.com/nielse63/convert-colors/pull).
+If all tests pass, [create a pull request](https://github.com/nielse63/convert-colors/pulls).-->
 

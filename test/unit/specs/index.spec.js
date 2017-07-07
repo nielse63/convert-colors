@@ -1,16 +1,16 @@
 
-import pkg from '../../../';
+import convert from '../../../src/convert-colors';
 
 export default function IndexSpec() {
   describe('sanity', () => {
     it('should be a function', () => {
-      expect(pkg).to.be.a.function;
+      expect(convert).to.be.a.function;
     });
   });
 
   describe('happy path', () => {
     const input = 'howdy';
-    expect(pkg(input)).to.equal(input);
+    expect(convert(input)).to.equal(input);
   });
 
   describe('sad path', () => {
