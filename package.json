@@ -1,6 +1,6 @@
 {
   "name": "convert-colors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A color conversion library",
   "main": "index.js",
   "repository": "https://github.com/nielse63/convert-colors",
