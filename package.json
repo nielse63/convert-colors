@@ -25,18 +25,18 @@
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.2.6",
     "babel-preset-env": "^1.6.0",
     "babel-register": "^6.24.1",
     "chai": "^4.0.2",
     "chai-asserttype": "^1.0.5",
     "chai-deep-match": "^1.0.2",
-    "coveralls": "^2.13.1",
-    "eslint": "^4.1.1",
-    "eslint-config-airbnb-base": "^11.2.0",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.7.0",
-    "mocha": "^3.4.2",
-    "nyc": "^11.0.3",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
     "randomcolor": "^0.5.3"
   }
 }
