@@ -5,7 +5,7 @@
 [![devDependencies Status](https://david-dm.org/nielse63/convert-colors/dev-status.svg)](https://david-dm.org/nielse63/convert-colors?type=dev)
 [![Code Climate](https://codeclimate.com/github/nielse63/convert-colors/badges/gpa.svg)](https://codeclimate.com/github/nielse63/convert-colors)
 [![NPM version](https://badge.fury.io/js/convert-colors.svg)](http://badge.fury.io/js/convert-colors)
-[![npm](https://img.shields.io/npm/dt/convert-colors.svg?style=flat-square)](https://www.npmjs.com/package/convert-colors)
+[![npm](https://img.shields.io/npm/dt/convert-colors.svg?style=flat-square)](https://www.npmjs.com/package/convert-colors) [![Greenkeeper badge](https://badges.greenkeeper.io/nielse63/convert-colors.svg)](https://greenkeeper.io/)
 
 DO NOT INSTALL - IN ACTIVE DEVELOPMENT.
 
