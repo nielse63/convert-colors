@@ -26,7 +26,7 @@
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.24.1",
     "chai": "^4.0.2",
     "chai-asserttype": "^1.0.5",
