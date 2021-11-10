@@ -30,7 +30,7 @@
     "babel-register": "^6.24.1",
     "chai": "^4.0.2",
     "chai-asserttype": "^1.0.5",
-    "chai-deep-match": "^1.0.2",
+    "chai-deep-match": "^1.2.1",
     "coveralls": "^2.13.1",
     "eslint": "^4.1.1",
     "eslint-config-airbnb-base": "^11.2.0",
